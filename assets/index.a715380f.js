@@ -106,4 +106,9 @@ Error generating stack: `+i.message+`
     I have just started learning React.js and React.ts. While I am focused on React.ts, I know that React.js is the same format.
     I needed a way to pass the questions answered to the Result page and found that useNavigate() was the prefect solution.
     While the design is simple, it is dynamic.
+    `},{id: 10,title: 'Minesweeper Clone',src: `${url}/MinsweeperClone`,image: './images/minesweeper_icon.svg',description: `
+    Here we have another project I did for the Web Dev Simplified bootcamp. Here the goal was to recreate the classic Windows game Minesweeper.
+    I actually took the project a step further and tried to recreate the look of the classic game and added difficulty selection as well. Due to the 
+    size of the Hard game board, making this project look and work correctly on mobile would not be worth the effort. I could add a mobile game board option
+    easily, however.
     `}];function qh(){return Rm("100% 100%"),N(Do,{children:N(Yh,{lg:2,md:1,sm:1,className:"g-2",children:Jh.map(e=>N(Y0,{className:"d-flex",children:N(Zh,{...e})},e.id))})})}function eb(){return Ot(Do,{children:[N(Gh,{}),N(vm,{className:"mb-4",children:Ot(Cg,{children:[N(Ia,{path:"MasterSite/",element:N(Xh,{})}),N(Ia,{path:"MasterSite/projects",element:N(qh,{})})]})})]})}Wi.createRoot(document.getElementById("root")).render(N(Ge.StrictMode,{children:N(Pg,{children:N(eb,{})})}));
